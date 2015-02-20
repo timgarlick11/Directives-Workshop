@@ -9,7 +9,7 @@
 <h2>pending</h2>
 	<form>
 		<input ng-model="query" placeholder="Search"/>
-		<button ng-click="getData()">Submit</button> 
+		<button class="btn btn-primary" pending request="getData()"> Submit </button>
 	</form>
 </div>
 
@@ -26,6 +26,7 @@
 <scripts>
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
 	<script type="text/javascript" src="mainCtrl.js"></script>
 	<script type="text/javascript" src="mainService.js"></script>
 	<script type="text/javascript" src="myDirectives.js"></script>
